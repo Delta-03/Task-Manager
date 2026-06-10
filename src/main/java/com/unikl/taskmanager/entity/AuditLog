@@ -1,3 +1,5 @@
+package com.unikl.taskmanager.entity;
+
 @Entity
 public class AuditLog {
     @Id
