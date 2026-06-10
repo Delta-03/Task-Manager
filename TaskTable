@@ -1,0 +1,11 @@
+@Entity
+public class Task {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long taskId;
+    private String title;
+    private String description;
+    private String status;
+    @ManyToOne
+    private User owner;
+}
