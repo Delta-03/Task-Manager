@@ -1,0 +1,10 @@
+@Entity
+public class AuditLog {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long logId;
+    private String username;
+    private String action;
+    private LocalDateTime timestamp;
+    private String ipAddress;
+}
