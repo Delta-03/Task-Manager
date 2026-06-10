@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Dashboard</title></head>
+<body style="font-family: Arial, sans-serif; margin: 40px;">
+    <h2>Secure Task Dashboard</h2>
+    <p>Logged in as identity: <strong th:text="${username}">User</strong></p>
+    <a href="/logout">Secure Sign Out</a>
+    <hr>
+
+    <h3>Create a New Protected Task Record</h3>
+    <form action="/tasks/create" method="POST">
+        <input type="text" name="title" placeholder="Task Title Summary" required style="width: 300px;"><br><br>
+        <textarea name="description" placeholder="Task Content Description Details" style="width: 300px; height: 80px;"></textarea><br><br>
+        <button type="submit">Save Task Payload</button>
+    </form>
+    <hr>
+
+    <h3>Your Active Tasks</h3>
+    <ul>
+        <li th:each="task : ${tasks}" style="margin-bottom: 10px;">
+            <strong th:text="${task.title}"></strong> - <span th:text="${task.description}"></span>
+            (Database Object Parameter Key ID: <span th:text="${task.id}"></span>)
+        </li>
+    </ul>
+</body>
+</html>

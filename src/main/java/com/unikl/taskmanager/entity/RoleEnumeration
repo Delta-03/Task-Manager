@@ -1,6 +1,0 @@
-package com.unikl.taskmanager.entity;
-
-public enum Role {
-    ROLE_ADMIN,
-    ROLE_USER
-}
