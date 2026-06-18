@@ -34,8 +34,8 @@ This application implements strict security controls to mitigate common web vuln
 3. Create a new account, log in, and begin securely managing tasks. To reset the database, simply stop and restart the server.
 
 ## System Screenshots
-*(Insert your application UI screenshot here)*
+*<img width="1918" height="1197" alt="Screenshot 2026-06-11 223704" src="https://github.com/user-attachments/assets/6a5e8f74-8adb-4c3b-937f-05d8bbf63c47" />*
 ![Web Application Dashboard](<img width="1918" height="1197" alt="Screenshot 2026-06-11 223704" src="https://github.com/user-attachments/assets/c18f71f8-4d14-476b-b4aa-4863eeac3b21" />)
 
-*(Insert your security testing screenshot here)*
+*<img width="1918" height="1197" alt="Screenshot 2026-06-12 000732" src="https://github.com/user-attachments/assets/8bb8a8b7-e9cf-4bf6-a3b0-46d3cb018bd9" />*
 ![Burp Suite 500 Error Defense](<img width="1918" height="1197" alt="Screenshot 2026-06-12 000732" src="https://github.com/user-attachments/assets/ffebcfe5-3739-4c2a-9f0d-713ce96dd0f7" />)
