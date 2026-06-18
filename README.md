@@ -35,7 +35,7 @@ This application implements strict security controls to mitigate common web vuln
 
 ## System Screenshots
 *(Insert your application UI screenshot here)*
-![Web Application Dashboard](insert-image-path-here.png)
+![Web Application Dashboard](<img width="1918" height="1197" alt="Screenshot 2026-06-11 223704" src="https://github.com/user-attachments/assets/c18f71f8-4d14-476b-b4aa-4863eeac3b21" />)
 
 *(Insert your security testing screenshot here)*
-![Burp Suite 500 Error Defense](insert-image-path-here.png)
+![Burp Suite 500 Error Defense](<img width="1918" height="1197" alt="Screenshot 2026-06-12 000732" src="https://github.com/user-attachments/assets/ffebcfe5-3739-4c2a-9f0d-713ce96dd0f7" />)
